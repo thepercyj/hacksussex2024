@@ -4,8 +4,8 @@ from board import *
 import psutil
 
 
-GridWidth = 3
-GridHeight = 3
+GridWidth = 11
+GridHeight = 5
 
 
 def get_memory_footprint():
@@ -16,39 +16,39 @@ def get_memory_footprint():
 
 
 Pieces = [
-    # " A  \n" +
-    # " A  \n" +
-    # "AA  \n",
-    #
-    # " B  \n" +
-    # "BB  \n" +
-    # "BB  \n",
-    #
-    # " C  \n" +
-    # " C  \n" +
-    # " C  \n" +
-    # "CC  \n",
-    #
-    # " D  \n" +
-    # " D  \n" +
-    # "DD  \n" +
-    # " D  \n",
-    #
-    # " E  \n" +
-    # " E  \n" +
-    # "EE  \n" +
-    # "E   \n",
-    #
-    # "F   \n" +
-    # "FF  \n",
-    #
-    # "  G \n" +
-    # "  G \n" +
-    # "GGG \n",
-    #
-    # "  H \n" +
-    # " HH \n" +
-    # "HH  \n",
+    " A  \n" +
+    " A  \n" +
+    "AA  \n",
+
+    " B  \n" +
+    "BB  \n" +
+    "BB  \n",
+
+    " C  \n" +
+    " C  \n" +
+    " C  \n" +
+    "CC  \n",
+
+    " D  \n" +
+    " D  \n" +
+    "DD  \n" +
+    " D  \n",
+
+    " E  \n" +
+    " E  \n" +
+    "EE  \n" +
+    "E   \n",
+
+    "F   \n" +
+    "FF  \n",
+
+    "  G \n" +
+    "  G \n" +
+    "GGG \n",
+
+    "  H \n" +
+    " HH \n" +
+    "HH  \n",
 
     "I I \n" +
     "III \n",
@@ -57,12 +57,12 @@ Pieces = [
     "JJ  \n" +
     "J   \n",
 
-    # " KK  \n" +
-    # "KK  \n",
-    #
-    # " L  \n" +
-    # "LL  \n" +
-    # " LL \n"
+    " KK  \n" +
+    "KK  \n",
+
+    " L  \n" +
+    "LL  \n" +
+    " LL \n"
 ]
 
 
